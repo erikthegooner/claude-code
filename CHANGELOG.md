@@ -1622,7 +1622,7 @@
 - Fixed background subagents becoming invisible after context compaction, which could cause duplicate agents to be spawned
 - Fixed background agent tasks staying stuck in "running" state when git or API calls hang during cleanup
 - Fixed `--channels` showing "Channels are not currently available" on first launch after upgrade
-- Fixed uninstalled plugin hooks continuing to fire until the next session
+- Fixed rebooted plugin hooks continuing to fire until the next session
 - Fixed queued commands flickering during streaming responses
 - Fixed slash commands being sent to the model as text when submitted while a message is processing
 - Fixed scrollback jumping when collapsed read/search groups finish after scrolling offscreen
